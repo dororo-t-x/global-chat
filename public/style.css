@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #eee;
+  text-align: center;
+}
+
+h1 {
+  margin: 10px;
+  color: #0ff;
+}
+
+#chat-box {
+  width: 400px;
+  height: 300px;
+  margin: auto;
+  background: #222;
+  border-radius: 10px;
+  padding: 10px;
+  overflow-y: auto;
+  border: 2px solid #0ff;
+}
+
+#messages p {
+  text-align: left;
+  margin: 5px;
+}
+
+#input-area {
+  margin-top: 10px;
+}
