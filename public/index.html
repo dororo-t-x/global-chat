@@ -1,20 +1,18 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Public Chat</title>
+  <title>Machu’s Website</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body background="a.jpg">
-  <div class="container">
-    <h1>💬 Public Chat</h1>
+<body background="b.jpg">
+  <h1>Welcome to Machu’s Website 🚀</h1>
+
+  <div id="chat">
     <div id="messages"></div>
-    <form id="chat-form">
-      <input type="text" id="message-input" placeholder="Type your message..." required>
-      <button type="submit">Send</button>
-    </form>
+    <input type="text" id="username" placeholder="Your name">
+    <input type="text" id="message" placeholder="Type a message">
+    <button onclick="sendMessage()">Send</button>
   </div>
 
   <script src="script.js"></script>
